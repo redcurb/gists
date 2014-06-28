@@ -3,3 +3,5 @@
 This repo contains content for use at http://gist.neo4j.org/.
 
 
+CREATE (you:Person {name:"You"})-[like:LIKE]->(us:Database:NoSql:Graph {name:"Neo4j" })
+RETURN you, like, us
