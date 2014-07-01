@@ -6,7 +6,8 @@ This repo contains content for use at http://gist.neo4j.org/.
 
 [source,cypher]
 ----
-CREATE (n{name:'cypher'})-[r:LIKES]->({name:'icecream'})
+CREATE (n{name:'Jon'})-[r:DRINKS]->({name:'Water'})
+CREATE (n{name:'Jon'})-[r:DRINKS]->({name:'Milk'})
 RETURN n.name, r
 ----
 
