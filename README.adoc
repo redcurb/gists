@@ -2,6 +2,11 @@
 
 File created to simply learn Graph Database Neo4j Cypher_ syntax
 
+Here is a sample view of the graph:
+//graph
+
+This here is the debugger:
+
 [source,cypher]
 ----
 CREATE (n{name:'Jon'})-[r:DRINKS]->({name:'Water'})
