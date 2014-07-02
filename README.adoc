@@ -1,8 +1,6 @@
-== GraphGists
+== Graph Database Learning
 
-This repo contains content for use at http://gist.neo4j.org/.
-
-//graph
+File created to simply learn Graph Database Neo4j Cypher_ syntax
 
 [source,cypher]
 ----
