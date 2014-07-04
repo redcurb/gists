@@ -15,7 +15,7 @@ CREATE (person)
 CREATE (place)
 CREATE (thing)
 
-RETURN n.name, r
+RETURN n.name, r, Jon, OrangeJuice
 ----
 
 
