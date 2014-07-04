@@ -10,8 +10,10 @@ This here is the debugger:
 [source,cypher]
 ----
 CREATE (n{name:'Jon'})-[r:DRINKS]->({name:'Water'})
-CREATE (person) --> (place)
+CREATE (person)
+CREATE (place)
 CREATE (thing)
+
 RETURN n.name, r
 ----
 
